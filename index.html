@@ -180,28 +180,8 @@
         return b;
       }</pre>
     </p>
-    <p>Q.11 Prepbuddy is very tasteful of clothes. He has N numbers of shirts hanging in the hanger in his wardrobe.Prepbuddy likes to wear different colored clothes. So, whenever he see there are two or more shirts with the same color, he removes all the shirt of that color from his wardrobe. Now, he wants to know how many M unique color shirts are left in the wardrobe. Prepbuddy wants you to find M. Note: As there are many shades of a color so consider integers as a color name. i.e, color of shirt is 0,1,2, … , N.</p>
-    <p><pre>Ans.11 function Unique_Shirts (arr,N) {
-         var c=0;
-        for (i=0; i < N; i++)
-        { var a=0;
-          for (j=0; j < N; j++)
-          {
-            if (arr[i]==arr[j])
-            {
-              a++;
-            }
-          }
-          if (a==1)
-          {
-            c++;
-          }
-        }
-        return c;
-      }</pre>
-    </p>
-    <p>Q.12 Yatharth and Anamika are playing a game. Anamika loves Yatharth very much and she wants to share a chocolate bar with him in which each of the squares consists of an integer represented by A[i]. She decides to share a contiguous segment of the chocolate bar selected such that the length of the segment matches Yatharth's birth month M and the sum of the integers on the squares is equal to his birthday D. You must determine how many ways she can divide the chocolate.</p>
-    <p><pre>Ans.12 function Birthday_Game(arr,D ,M) {
+    <p>Q.11 Yatharth and Anamika are playing a game. Anamika loves Yatharth very much and she wants to share a chocolate bar with him in which each of the squares consists of an integer represented by A[i]. She decides to share a contiguous segment of the chocolate bar selected such that the length of the segment matches Yatharth's birth month M and the sum of the integers on the squares is equal to his birthday D. You must determine how many ways she can divide the chocolate.</p>
+    <p><pre>Ans.11 function Birthday_Game(arr,D ,M) {
  
       var countD=0;
       var countI=0;
